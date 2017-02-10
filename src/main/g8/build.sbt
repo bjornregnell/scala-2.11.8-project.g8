@@ -6,7 +6,7 @@ lazy val root = (project in file(".")).
       version      := "0.1.0-SNAPSHOT"
     )),
     name := "myproject",
-    libraryDependencies += Seq(
+    libraryDependencies ++= Seq(
       "jline" % "jline" % "2.14.3"
     )
   )
